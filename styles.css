@@ -1,0 +1,88 @@
+
+.main {
+    background-color: #43467a;
+    padding: 20px;
+}
+
+/*header {visibility: hidden;}
+
+
+/* Title style */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: monospace;
+    font-size: 18px
+}
+
+.st-emotion-cache-1erivf3 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(38, 39, 48);
+    border-radius: 0.2rem;
+    color: rgb(250, 250, 250);
+    font-family: monospace;
+}
+
+
+/* File uploader style */
+.stFileUploader label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+/* Button style */
+.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.stButton button:hover {
+    background-color: #45a049;
+}
+
+
+
+button:hover {
+    background-color: white !important; 
+    color: black !important;              
+    cursor: pointer;
+}
+
+
+button:active,
+button:focus {
+    background-color: white !important; 
+    color: black !important;              
+    border: 2px solid black !important;  
+}
+
+
+button[data-testid="fileUploader"] button,
+button[role="button"] {
+    transition: background-color 0.3s ease;
+}
+
+
+button {
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease;  
+}
+
+li{
+    font-family: monospace;
+    font-size: 16px
+
+
+}
