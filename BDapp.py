@@ -73,6 +73,8 @@ def get_financial_advice(data):
 def main():
     st.title("Better Decisions.Ai")
 
+    st.write("BetterDecisions Ai helps you identify key areas in your spending that habits that contribute the most to your carbon footprint.")
+
     uploaded_file = st.file_uploader("Upload your bank statement to get tips on how to reduce your carbon footprint", type=["pdf", "csv"])
 
     if uploaded_file is not None:
