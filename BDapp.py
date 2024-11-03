@@ -84,7 +84,8 @@ def main():
 
         # get financial advice based on the uploaded data
         if st.button("Get Tips"):
-            advice = get_financial_advice(structured_data)
+            with st.spinner("Please wait a few moments..."):
+                advice = get_financial_advice(structured_data)
             st.write(advice)
 
 if __name__ == "__main__":
